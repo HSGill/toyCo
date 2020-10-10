@@ -1,9 +1,23 @@
 .menu-container{
     display: flex;
     justify-content: space-between;
-    margin:  20px ;
+    height: 70px;
+    margin:  25px ;
+    border: solid 2px;
+    .logo-container{
+        height: 100%;
+        width: 70px;
+        padding: 25px;        
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+
+        .option{
+            padding :  15px 10px ;
+            text-decoration: none !important;
+
+        }
+    }
 }
 
-.logo{
-    
-}
